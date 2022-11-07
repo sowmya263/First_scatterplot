@@ -3,6 +3,7 @@ import pandas as pd
 import altair as alt
 import numpy as np
 
+st.title("Scatterplot of Movie dataset")
 #load the data
 movie_data = pd.read_csv('movie_data.csv')
 
